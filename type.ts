@@ -1,8 +1,6 @@
 let n: Number = 1;
 n = 2;
 console.log(n);
-
-
 let x: any = 1;
 x = 'rob';
 
@@ -16,6 +14,20 @@ var helo: string = "fuck";
 var names: string[] = ["john","doe"];
 
 var he: any[] = ["dd",1];
+
+
 //enum
-enum krishna {hack,fuck,helo};
+enum krishna {hack,fuck,helo}
 var cat:krishna = krishna.fuck;
+console.log(cat);
+
+//string
+
+function sai(): string{
+    return "krishna";
+
+}
+//void
+function sss(): void{
+    console.log ("krishna");
+}
